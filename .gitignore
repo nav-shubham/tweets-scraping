@@ -19,3 +19,8 @@ downloader.db
 emails.db
 env/
 venv/
+
+# Clean Backup Exclusions
+*.bat
+*.csv
+twitter_session.json
