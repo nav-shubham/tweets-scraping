@@ -9,3 +9,13 @@ wheels/
 # Virtual environments
 .venv
 .csv
+# Added by Antigravity CLI
+*.pyc
+.env
+.env.*
+.env.local
+.venv/
+downloader.db
+emails.db
+env/
+venv/
