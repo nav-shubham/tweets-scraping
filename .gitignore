@@ -8,11 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
-.csv
 # Added by Antigravity CLI
 *.pyc
 .env
 .env.*
+!.env.example
 .env.local
 .venv/
 downloader.db
@@ -24,3 +24,56 @@ venv/
 *.bat
 *.csv
 twitter_session.json
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Heavy output, inputs, media, and datasets (keep repo < 50MB)
+videos/
+downloads/
+data/
+Databases/
+Backups/
+Articles/
+images_raw/
+final_photos_2/
+afm_revision_videos/
+drive_pdfs/
+brochures/
+raw_data/
+master_database.json
+cs_journal/
+members_journal/
+students_journal/
+expert_opinions*/
+rust/target/
+target/
+*.exe
+*.zip
+*.tar.*
+*.mp4
+*.mkv
+*.webm
+*.avi
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE and OS
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+.DS_Store
